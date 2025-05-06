@@ -1,0 +1,193 @@
+{
+  "id": "2c5e56a7-7ddd-463e-8db4-2e7083ead55c",
+  "revision": 0,
+  "last_node_id": 37,
+  "last_link_id": 18,
+  "nodes": [
+    {
+      "id": 33,
+      "type": "KeyValueNode",
+      "pos": [
+        504.9712829589844,
+        501.17156982421875
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "content",
+          "type": "STRING",
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            17
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KeyValueNode"
+      },
+      "widgets_values": [
+        "ddd",
+        320949296978960,
+        "randomize"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "DynamicPyNode",
+      "pos": [
+        106.58025360107422,
+        176.14712524414062
+      ],
+      "size": [
+        338.9142761230469,
+        242.05714416503906
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            14,
+            18
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DynamicPyNode"
+      },
+      "widgets_values": [
+        "路径",
+        "/root/ComfyUI/custom_nodes/Comfyui-chenx/dy/py_pro1/main.py",
+        "sdsd",
+        1076708126956964,
+        "randomize"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "ShowText|pysssss",
+      "pos": [
+        647.2992553710938,
+        26.499961853027344
+      ],
+      "size": [
+        408.3999938964844,
+        278.7428894042969
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "b4a9cebf24b50c4b538945ae86c17a9dc24052a8",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "{\n  \"ddd\": \"qq\",\n  \"processed\": {\n    \"timestamp\": 1746532806.5607326,\n    \"input_length\": 2,\n    \"current_name\": \"赵六\",\n    \"name_index\": 373\n  },\n  \"counter\": 399\n}\n",
+        "{\n  \"ddd\": \"sdsd\",\n  \"processed\": {\n    \"timestamp\": 1746532930.2428136,\n    \"input_length\": 4,\n    \"current_name\": \"王五\",\n    \"name_index\": 422\n  },\n  \"counter\": 448\n}\n"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "ShowText|pysssss",
+      "pos": [
+        856.8569946289062,
+        421.0001525878906
+      ],
+      "size": [
+        438.2857666015625,
+        243.71429443359375
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "b4a9cebf24b50c4b538945ae86c17a9dc24052a8",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "sdsadasd",
+        "sdsd"
+      ]
+    }
+  ],
+  "links": [
+    [
+      14,
+      30,
+      0,
+      33,
+      0,
+      "STRING"
+    ],
+    [
+      17,
+      33,
+      0,
+      36,
+      0,
+      "STRING"
+    ],
+    [
+      18,
+      30,
+      0,
+      37,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.18.6"
+  },
+  "version": 0.4
+}
